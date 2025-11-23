@@ -1,13 +1,14 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html>
-<head
-<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
 <title>Senator Veronica Sawyer | Democrat for Ohio</title>
-<style type="text/css">
+
+<style>
   /* RESET & BASIC SETUP */
   body {
     background-color: #CCCCCC;
-    background-image: url('https://www.transparenttextures.com/patterns/nice-snow.png'); /* Subtle texture */
+    background-image: url('https://www.transparenttextures.com/patterns/nice-snow.png');
     margin: 0;
     padding: 0;
     font-family: Verdana, Arial, Helvetica, sans-serif;
@@ -15,24 +16,24 @@
     color: #000000;
   }
 
-  /* MAIN CONTAINER - SIMULATING A CENTERED TABLE */
+  /* MAIN CONTAINER */
   .main-container {
     width: 760px;
     background-color: #FFFFFF;
     margin: 0 auto;
-    border-left: 1/px solid #000000;
+    border-left: 1px solid #000000;
     border-right: 1px solid #000000;
     border-bottom: 1px solid #000000;
   }
 
   /* HEADER */
   .header {
-    background-color: #663399; /* Campaign Purple */
+    background-color: #663399;
     color: #FFFFFF;
-    padding: 0px;
+    padding: 0;
     height: 120px;
     position: relative;
-    border-bottom: 3px solid #993366; /* Complementary Red-Purple */
+    border-bottom: 3px solid #993366;
   }
   
   .header-title {
@@ -60,17 +61,17 @@
     color: #FFFFFF;
   }
 
-  /* MARQUEE BAR */
+  /* NEWS TICKER */
   .news-ticker {
     background-color: #EEEEEE;
     border-bottom: 1px solid #999999;
     padding: 5px;
     font-size: 10px;
     font-weight: bold;
-    color: #993366; /* Complementary Red-Purple */
+    color: #993366;
   }
 
-  /* LAYOUT COLUMNS */
+  /* LAYOUT */
   table.layout-table {
     width: 100%;
     border-collapse: collapse;
@@ -103,7 +104,7 @@
     width: 100%;
     padding: 8px 5px;
     margin-bottom: 5px;
-    background-color: #663399; /* Campaign Purple */
+    background-color: #663399;
     color: #FFFFFF;
     text-decoration: none;
     font-weight: bold;
@@ -117,14 +118,14 @@
   }
 
   .nav-button:hover {
-    background-color: #993366; /* Complementary Red-Purple */
+    background-color: #993366;
   }
 
   /* CONTENT STYLES */
   h1 {
     font-family: "Times New Roman", Times, serif;
     font-size: 24px;
-    color: #663399; /* Campaign Purple */
+    color: #663399;
     border-bottom: 1px solid #CCCCCC;
     padding-bottom: 5px;
     margin-top: 0;
@@ -133,7 +134,7 @@
   h2 {
     font-size: 14px;
     font-weight: bold;
-    color: #993366; /* Complementary Red-Purple */
+    color: #993366;
     margin-bottom: 5px;
   }
 
@@ -167,7 +168,7 @@
   }
 
   .module-header {
-    background-color: #663399; /* Campaign Purple */
+    background-color: #663399;
     color: #FFFFFF;
     font-weight: bold;
     padding: 3px;
@@ -192,15 +193,15 @@
 
   /* FOOTER */
   .footer {
-    background-color: #663399; /* Campaign Purple */
+    background-color: #663399;
     color: #FFFFFF;
     text-align: center;
     padding: 10px;
     font-size: 10px;
-    border-top: 3px solid #993366; /* Complementary Red-Purple */
+    border-top: 3px solid #993366;
   }
 
-  a { color: #663399; } /* Campaign Purple */
+  a { color: #663399; }
   a:hover { text-decoration: none; }
 
   ul.issues-list {
@@ -208,101 +209,113 @@
     padding-left: 20px;
   }
 </style>
+
 </head>
 <body>
 
 <div class="main-container">
+
   <!-- HEADER -->
   <div class="header">
     <div class="header-date">Tuesday, January 4, 2033</div>
-    <img src="https://i.imgur.com/RKKbCak.png" srcset="https://i.imgur.com/RKKbCak.png 1x" width="100" alt="Campaign Logo" style="float: left; margin: 10px;">
-    <div class="header-title" style="padding-left: 120px;">SENATOR VERONICA SAWYER</div>
-    <div class="header-subtitle" style="padding-left: 122px;">"Promises Made. Promises Kept"</div>
-    <!-- Inline graphic simulation -->
-    <div style="position: absolute; bottom: 0; right: 0; background-color: #993366; color: white; padding: 5px 10px; font-weight: bold; font-size: 12px;">
+
+    <img src="https://i.imgur.com/RKKbCak.png" width="100" alt="Campaign Logo" style="float:left; margin:10px;">
+
+    <div class="header-title" style="padding-left:120px;">SENATOR VERONICA SAWYER</div>
+    <div class="header-subtitle" style="padding-left:122px;">"Promises Made. Promises Kept"</div>
+
+    <div style="position:absolute; bottom:0; right:0; background-color:#993366; color:white; padding:5px 10px; font-weight:bold; font-size:12px;">
       RE-ELECT VERONICA SAWYER
     </div>
   </div>
 
   <!-- NEWS TICKER -->
   <div class="news-ticker">
-    <marquee scrollamount="4">LATEST: Senator Sawyer secures expanded SNAP & Medicare benefits +++ Bill making Daylight Saving Time permanent passes Senate +++ Free Trade School Amendment for low-income families signed into law +++ New IEP emergency safety protocols established +++ </marquee>
+    <marquee scrollamount="4">
+      LATEST: Senator Sawyer secures expanded SNAP & Medicare benefits +++
+      Bill making Daylight Saving Time permanent passes Senate +++
+      Free Trade School Amendment for low-income families signed into law +++
+      New IEP emergency safety protocols established +++
+    </marquee>
   </div>
 
-  <!-- MAIN LAYOUT TABLE -->
+  <!-- LAYOUT -->
   <table class="layout-table">
     <tr>
-      <!-- LEFT SIDEBAR -->
+
+      <!-- SIDEBAR -->
       <td class="sidebar">
-        <div style="text-align: center; margin-bottom: 10px;">
-          <b>Navigation</b>
-        </div>
-        <a class="nav-button">HOME</a>
-        <a class="nav-button">ABOUT VERONICA</a>
-        <a class="nav-button">ON THE ISSUES</a>
-        <a class="nav-button">PRESS ROOM</a>
-        <a class="nav-button">GET INVOLVED</a>
-        <a class="nav-button">CONTRIBUTE</a>
-        <a class="nav-button">CONTACT</a>
-        
+        <div style="text-align:center; margin-bottom:10px;"><b>Navigation</b></div>
+
+        <a class="nav-button" href="#">HOME</a>
+        <a class="nav-button" href="#">ABOUT VERONICA</a>
+        <a class="nav-button" href="#">ON THE ISSUES</a>
+        <a class="nav-button" href="#">PRESS ROOM</a>
+        <a class="nav-button" href="#">GET INVOLVED</a>
+        <a class="nav-button" href="#">CONTRIBUTE</a>
+        <a class="nav-button" href="#">CONTACT</a>
+
         <br><br>
-        <div style="text-align: center;">
-            <div style="border: 1px solid #999; padding: 5px; background: #FFF;">
-                <b>Forward PAC</b><br>
-                <img src="https://i.imgur.com/h8aiYso.jpeg" srcset="https://i.imgur.com/h8aiYso.jpeg 1x" width="100" alt="Volunteers" style="margin: 5px 0;"><br>
-                <span style="font-size: 9px;">Join us to support common sense candidates nationwide!</span>
-            </div>
+
+        <div style="text-align:center;">
+          <div style="border:1px solid #999; padding:5px; background:#FFF;">
+            <b>Forward PAC</b><br>
+            <img src="https://i.imgur.com/h8aiYso.jpeg" width="100" alt="Volunteers" style="margin:5px 0;"><br>
+            <span style="font-size:9px;">Join us to support common sense candidates nationwide!</span>
+          </div>
         </div>
       </td>
 
       <!-- MAIN CONTENT -->
       <td class="content">
         <h1>Welcome from Senator Sawyer</h1>
-        
+
         <div class="photo-frame">
-          <!-- Updated image size to be smaller -->
-          <img src="https://i.imgur.com/yh5rSjk.jpeg" srcset="https://i.imgur.com/yh5rSjk.jpeg 1x" width="180" alt="Senator Veronica Sawyer on Capitol Hill, 2032">
+          <img src="https://i.imgur.com/yh5rSjk.jpeg" width="180" alt="Senator Veronica Sawyer on Capitol Hill, 2032">
           <div class="photo-caption">Senator Sawyer on Capitol Hill, 2032</div>
         </div>
 
         <p><b>Dear Friends and Neighbours,</b></p>
-        
-        <p>Growing up in Sherwood, Ohio, I learned early on that life isn't always as simple as a croquet match. Ohioans face real challenges, and we need real leadership to tackle them. During my time in the Senate, I've fought to bring the voices of hard working Ohioans to the Senate Chamber.</p>
 
-        <p>We have increased medicare access for our seniors, created accommodations for disabled students during emergencies and drills, and increased access to trade school for our low income families. We ensured that every Ohioan has a fair shot at the American Dream.</p>
-        
+        <p>Growing up in Sherwood, Ohio, I learned early on that life isn't always as simple as a croquet match. Ohioans face real challenges, and we need real leadership to tackle them. During my time in the Senate, I've fought to bring the voices of hardworking Ohioans to the Senate Chamber.</p>
+
+        <p>We have increased Medicare access for our seniors, created accommodations for disabled students during emergencies and drills, and increased access to trade school for our low-income families. We ensured that every Ohioan has a fair shot at the American Dream.</p>
+
         <p>But our work isn't done yet. I am asking for your vote next November so we can continue to build a future that is for all Ohioans of all backgrounds.</p>
 
         <p>Sincerely,</p>
-        <p><img src="https://i.imgur.com/LtMyqiu.png" srcset="https://i.imgur.com/LtMyqiu.png 1x" width="100" alt="Signature"></p>
+
+        <p><img src="https://i.imgur.com/LtMyqiu.png" width="100" alt="Signature"></p>
+
         <p><b>Veronica Sawyer</b><br>U.S. Senator, Ohio</p>
-        
-        <hr noshade size="1" color="#CCCCCC">
-        
+
+        <hr>
+
         <h1>Recent News & Achievements</h1>
+
         <p><b>October 27, 2032: Major Victory for Ohio Families on SNAP & Medicare</b><br>
         Senator Sawyer successfully led the bipartisan effort to expand SNAP benefits and secure critical funding for Medicare, ensuring no Ohioan goes hungry or without care. <a href="#">[Read More]</a></p>
 
         <p><b>August 15, 2032: Daylight Saving Time Made Permanent</b><br>
-        Ending the biannual clock change, Senator Sawyer's "Sunshine Protection Act" has finally been signed into law, bringing stability to our schedules. <a href="#">[Full Story]</a></p>
+        Ending the biannual clock change, Senator Sawyer's "Sunshine Protection Act" has finally been signed into law. <a href="#">[Full Story]</a></p>
 
         <p><b>May 22, 2032: Free Trade School Amendment Passes</b><br>
-        A landmark achievement, this legislation amended the Appalachia Childcare Recouperation Act to provide tuition-free trade school education for families below the poverty line, opening doors to new careers. <a href="#">[Learn More]</a></p>
+        This legislation amended the Appalachia Childcare Recouperation Act to provide tuition-free trade school education for families below the poverty line. <a href="#">[Learn More]</a></p>
 
         <p><b>February 10, 2032: IEP Safety Accommodations Expanded</b><br>
-        New legislation authored by Senator Sawyer ensures comprehensive emergency and drill accommodations are included in all Individualized Education Programs (IEPs) for disabled students. <a href="#">[Read Details]</a></p>
+        New legislation authored by Senator Sawyer ensures comprehensive emergency and drill accommodations are included in all IEPs for disabled students. <a href="#">[Read Details]</a></p>
       </td>
 
       <!-- RIGHT RAIL -->
       <td class="right-rail">
-        
+
         <!-- EMAIL SIGNUP -->
         <div class="module">
           <div class="module-header">STAY CONNECTED</div>
-          <div class="module-content" style="text-align: center;">
-            <p style="margin: 5px 0;">Sign up for email updates:</p>
-            <input type="text" class="input-field" value="email@address.com">
-            <button class="submit-btn">Go >></button>
+          <div class="module-content" style="text-align:center;">
+            <p style="margin:5px 0;">Sign up for email updates:</p>
+            <input type="text" class="input-field" placeholder="email@address.com">
+            <button class="submit-btn">Go &gt;&gt;</button>
           </div>
         </div>
 
@@ -310,23 +323,23 @@
         <div class="module">
           <div class="module-header">WEEKLY POLL</div>
           <div class="module-content">
-            <p style="margin: 5px 0;"><b>What is your top priority?</b></p>
+            <p style="margin:5px 0;"><b>What is your top priority?</b></p>
             <form>
               <input type="radio" name="poll"> Education<br>
               <input type="radio" name="poll"> Healthcare<br>
-              <input type="radio" name="poll"> Economy<br>
-              <br>
+              <input type="radio" name="poll"> Economy<br><br>
               <center><button class="submit-btn">Vote</button></center>
             </form>
           </div>
         </div>
 
         <!-- BADGES -->
-        <div style="text-align: center; margin-top: 20px;">
-          <img src="https://www.w3.org/Icons/valid-html401" alt="Valid HTML 4.01" height="31" width="88"><br>
-          <br>
-          <span style="font-size: 9px; color: #666;">You are visitor number:</span><br>
-          <div style="background: black; color: red; font-family: 'Courier New'; font-weight: bold; display: inline-block; padding: 2px 5px; border: 2px solid #999;">041989</div>
+        <div style="text-align:center; margin-top:20px;">
+          <img src="https://www.w3.org/Icons/valid-html401" alt="Valid HTML 4.01" height="31" width="88"><br><br>
+          <span style="font-size:9px; color:#666;">You are visitor number:</span><br>
+          <div style="background:black; color:red; font-family:'Courier New'; font-weight:bold; display:inline-block; padding:2px 5px; border:2px solid #999;">
+            041989
+          </div>
         </div>
 
       </td>
@@ -335,11 +348,14 @@
 
   <!-- FOOTER -->
   <div class="footer">
-    &copy; 2032 Friends of Veronica Sawyer. All Rights Reserved.<br>
+    © 2032 Friends of Veronica Sawyer. All Rights Reserved.<br>
     Paid for by the Committee to Re-Elect Sawyer.<br>
-    <a href="#" style="color: #FFF; text-decoration: underline;">Privacy Policy</a> | <a href="#" style="color: #FFF; text-decoration: underline;">Sitemap</a>
+    <a href="#" style="color:#FFF; text-decoration:underline;">Privacy Policy</a> |
+    <a href="#" style="color:#FFF; text-decoration:underline;">Sitemap</a>
   </div>
+
 </div>
 
 </body>
 </html>
+
