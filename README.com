@@ -1,6 +1,6 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
-<head>
+<head
 <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
 <title>Senator Veronica Sawyer | Democrat for Ohio</title>
 <style type="text/css">
